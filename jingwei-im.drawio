@@ -1,1 +1,277 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T09:18:21.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" version="14.6.1" etag="_opTp-wMyfj7Y21rG3Bh" type="github"><diagram id="fcT0C-pKlmLZuauN64Ub">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-16T11:43:44.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="QGHytVaiuP_fmFWuYNrz" version="14.6.1" type="github">
+  <diagram id="fcT0C-pKlmLZuauN64Ub" name="Page-1">
+    <mxGraphModel dx="3555" dy="1985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-174" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2150" width="1140" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-162">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="2150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-162" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1920" width="1150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-131" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="840" y="140" width="1150" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-6" target="YuZP45B1-CFtGPKk36Yj-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="RongIMLib.Message" aa="string" id="YuZP45B1-CFtGPKk36Yj-6">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+            <mxGeometry x="30" y="200" width="260" height="538" as="geometry">
+              <mxRectangle x="30" y="200" width="90" height="26" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-7" value="content: MessageContent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="26" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-70" value=" conversationType: ConversationType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="58" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-71" value="  extra: string&#xa;        " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="90" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-72" value="objectName: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="122" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-73" value=" messageDirection: MessageDirection;&#xa;           " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="154" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-74" value=" receivedStatus: ReceivedStatus;&#xa;        " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="186" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-75" value="receivedTime: number;&#xa;       " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="218" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-76" value=" senderUserId: string;&#xa;       " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="250" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-77" value=" sentStatus: SentStatus;&#xa;       " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="282" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-78" value=" sentTime: number;&#xa;       " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="314" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-79" value=" targetId: string;&#xa;       " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="346" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-80" value=" messageType: string;&#xa;     " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="378" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-81" value="   messageUId: string;&#xa;      " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="410" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-82" value="  isLocalMessage: boolean;&#xa;    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="442" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-83" value="    offLineMessage: boolean;&#xa;                                    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="474" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-84" value="  receiptResponse: any;           " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YuZP45B1-CFtGPKk36Yj-6">
+          <mxGeometry y="506" width="260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-101" value="&lt;pre style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;ol&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;排除非群聊和私聊发过来的消息&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;text-indent: 0px ; display: inline ; float: none&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;排除targetId === &#39;aaa&#39;（以前遗留的脏数据）&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;text-indent: 0px ; display: inline ; float: none&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;JSON.parse(message.content.content)，将remoteId为-101群发的消息处理成对应的发送或接收者&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;text-indent: 0px ; display: inline ; float: none&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;排除&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;helvetica&quot;&gt;message.content.messageName === &#39;TypingStatusMessage&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="199" width="280" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-107" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; text-align: left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;IMHelper.convertRongIMMsgToIMMsg 转换&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="210" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-109" target="YuZP45B1-CFtGPKk36Yj-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="358" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-109" value="是否能够正常解析&lt;br&gt;JSON.parse(content.content || content)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="270" width="210" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-114">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-114" target="YuZP45B1-CFtGPKk36Yj-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-114" value="是否存在&lt;br&gt;parsedRongIMMessage.data.wXMsg" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="937.5" y="560" width="252.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-117" value="是，标准夜王格式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="850" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-118" target="YuZP45B1-CFtGPKk36Yj-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-118" value="&lt;ul&gt;&lt;li&gt;添加字段isSelf&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="981.25" y="970" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-119" target="YuZP45B1-CFtGPKk36Yj-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-119" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;convertRongSpecialMsgToIMMsg造一个夜王格式消息&lt;/span&gt;&lt;/div&gt;&lt;code&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;actionId,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;callback,&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;helvetica&quot;&gt;data:{&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;&amp;nbsp; &amp;nbsp; wXMsg:...&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;&amp;nbsp; }&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="410" width="260" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-121" value="否，非标准夜王格式消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="640" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-122" target="YuZP45B1-CFtGPKk36Yj-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-122" value="取出parsedRongIMMessage.data.wXMsg，&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="739" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-125" value="«interface»&lt;br&gt;&lt;b&gt;IctReceivedMessage&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="303" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-126" target="YuZP45B1-CFtGPKk36Yj-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-126" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;添加sendTime等字段（字段转换用于兼容老代码）；&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;添加rongMsg，用于保存融云原始返回字段&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="333" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-129" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="490" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-130" value="否，非标准夜王格式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="330" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-132" value="&lt;font style=&quot;font-size: 18px&quot;&gt;过滤&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-133" value="&lt;font style=&quot;font-size: 22px&quot;&gt;接收消息和发送成功后回调：融云和夜王格式转化&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="490" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-134" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1168" as="sourcePoint" />
+            <mxPoint x="2482.1457142857143" y="1168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-135" value="&lt;font style=&quot;font-size: 22px&quot;&gt;发送消息：夜王格式包装&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1230" width="490" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-140" target="YuZP45B1-CFtGPKk36Yj-141">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-140" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;发送消息入参&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;conversationType: ConversationType;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;targetId: string | number;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;messageContent: {&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;[x: string]: any;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;remoteId: string | number;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;contentType: &#39;Text&#39; | &#39;GIF&#39; | &#39;Image&#39; | &#39;Video&#39; | &#39;H5&#39; | &#39;Audio&#39; | &#39;File&#39;;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;content: string | H5Message;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;};&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;messageOtherInfo?: {&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;mediaPreviewUrl?: string;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;mediaBase64?: string; // base64压缩&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;mediaSize?: number; // 资源大小&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;mediaTime?: number; // 资源时长&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;};&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;isMentiondMsg?: boolean;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1340" width="386" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-141" target="YuZP45B1-CFtGPKk36Yj-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-141" value="&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;将/#\|\^%#([^#]+)#\|\^%#/替换为用户名&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;生成RongIMLib.MentionedInfo，设置&amp;nbsp;RongIMLib.MentionedType&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;new RongIMLib.TextMessage时设置RongIMLib.MentionedInfo&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1370" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-142" value="处理@" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="787" y="1380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-144" value="&lt;ul&gt;&lt;li&gt;造数据{callback,data:{wxmsg::..},...}&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;JSON.stringify后作为RongIMLib.TextMessage的content&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;设置pushContent等融云需要字段&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1355" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-145" value="包装格式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1370" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-149">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-149" value="sendMessage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-152" value="回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-153" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1760" as="sourcePoint" />
+            <mxPoint x="2481.6666666666665" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-154" value="&lt;font style=&quot;font-size: 22px&quot;&gt;消息渲染处理&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="1800" width="490" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-157" target="YuZP45B1-CFtGPKk36Yj-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-157" value="对超链接包装a标签：&lt;br&gt;/(?&amp;lt;!src=.)(http:\/\/|https:\/\/)((\w|=|\?|\.|%|\/|&amp;amp;|-|\#|:)+)/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1960" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-158" target="YuZP45B1-CFtGPKk36Yj-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-158" value="换行符改为&amp;lt;br&amp;gt;：&lt;br&gt;/[\n\r]/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-159" target="YuZP45B1-CFtGPKk36Yj-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-159" value="处理多余&amp;lt;br/&amp;gt;：&lt;br&gt;/&amp;lt;br \/&amp;gt;&amp;lt;br \/&amp;gt;/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-160" target="YuZP45B1-CFtGPKk36Yj-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-160" value="处理emoji：&lt;br&gt;emojiTxtToUrl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-161" value="处理xss：&lt;br&gt;safeHtml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-167" target="YuZP45B1-CFtGPKk36Yj-172">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-167" value="预渲染获取内容高度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-169" value="完成ChatDialogContentItem组件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="2110" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-171" value="完成AutoSizer组件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="2370" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuZP45B1-CFtGPKk36Yj-172" target="YuZP45B1-CFtGPKk36Yj-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-172" value="包装右键菜单SelectableChatUserItem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-175" value="内容处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1930" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-176" value="渲染处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="52" y="2160" width="58" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZP45B1-CFtGPKk36Yj-177" value="设置滚动onScroll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

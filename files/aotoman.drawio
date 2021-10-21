@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T06:06:16.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.2.9" etag="scJ4P4sOgRt8us2P_kiz" type="github"><diagram id="V1Rzsxr_dnIFl74jXxDQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-21T06:37:49.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="ZJgAbRH43SkNcMLdKuW2" version="15.2.9" type="github">
+  <diagram id="V1Rzsxr_dnIFl74jXxDQ" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vlj-LioX5GweWTvi4d5e-1" target="Vlj-LioX5GweWTvi4d5e-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-1" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;配置系统&lt;br&gt;&lt;/b&gt;&lt;/font&gt;负责配置表格、表单、按钮及其样式、布局、api、字段、action等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vlj-LioX5GweWTvi4d5e-2" target="Vlj-LioX5GweWTvi4d5e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;基座&lt;br&gt;&lt;/b&gt;&lt;/font&gt;渲染菜单和加载子微应用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="340" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vlj-LioX5GweWTvi4d5e-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vlj-LioX5GweWTvi4d5e-3" target="Vlj-LioX5GweWTvi4d5e-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="398" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;二开项目&lt;/b&gt;&lt;/font&gt;&lt;br&gt;根据配置id查询配置参数&lt;br&gt;扩展自定义配置传入组件&lt;br&gt;将组件组装为页面&lt;br&gt;增加自定义页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;交付产品&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vlj-LioX5GweWTvi4d5e-6" target="Vlj-LioX5GweWTvi4d5e-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="570" />
+              <mxPoint x="450" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-6" value="&lt;font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;特殊组件&lt;/font&gt;&lt;/b&gt;&lt;br&gt;负责根据配置id渲染出相应表格、表单&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="600" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-9" value="根据项目需求生成配置id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="390" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-10" value="相应组件及样式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="540" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vlj-LioX5GweWTvi4d5e-11" target="Vlj-LioX5GweWTvi4d5e-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vlj-LioX5GweWTvi4d5e-11" target="Vlj-LioX5GweWTvi4d5e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-11" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;产品运维系统&lt;br&gt;&lt;/b&gt;&lt;/font&gt;配置菜单和对应的页面code&lt;br&gt;配置不同项目的部署域名&lt;br&gt;配置账号和权限&lt;br&gt;配置通用页面如首页/公告&lt;br&gt;数据库/表管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="130" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-13" value="菜单和页面配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-15" value="以微前端形式提供页面和页面code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-20" value="域名分配" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="210" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-23" value="渲染菜单和页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="370" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Vlj-LioX5GweWTvi4d5e-27" value="配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

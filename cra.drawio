@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T08:19:08.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="MlC1kuFzg1OP5QMGKZ-7" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T09:42:09.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="svWVUT1hcQ81v1Nbq9uW" version="15.5.9" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2131" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2522" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -236,7 +236,7 @@
         <mxCell id="z6YjeSEmc34uNPCmeLSA-82" value="createApp" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="10" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z6YjeSEmc34uNPCmeLSA-83" value="&lt;span&gt;提供command&lt;br&gt;检查是否输入项目名和create-react-app版本&lt;br&gt;获取选项&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;align=left;" vertex="1" parent="1">
+        <mxCell id="z6YjeSEmc34uNPCmeLSA-83" value="&lt;span&gt;提供command&lt;br&gt;&lt;br&gt;检查是否输入项目名和create-react-app版本&lt;br&gt;&lt;br&gt;获取选项&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;align=left;" vertex="1" parent="1">
           <mxGeometry x="-190" y="1350" width="110" height="160" as="geometry" />
         </mxCell>
         <mxCell id="z6YjeSEmc34uNPCmeLSA-85" value="&lt;br&gt;&lt;div&gt;&lt;div&gt;生成空package.json文件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;检查yarn和npm支持情况&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;align=left;" vertex="1" parent="1">

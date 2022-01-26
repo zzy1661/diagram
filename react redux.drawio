@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T07:28:49.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.4.6" etag="-Ed417EDiYzW9vjUkitJ" type="github"><diagram id="gBHyzZC82E5RvN-bm_lU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-26T08:54:07.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="bVnT_xqOv8z_BaByDWub" version="16.4.6" type="github">
+  <diagram id="gBHyzZC82E5RvN-bm_lU" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T70dYsvGVHp2kIThYeYV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T70dYsvGVHp2kIThYeYV-1" target="T70dYsvGVHp2kIThYeYV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-1" value="connect(mapStateToProps)(WrappedComponent)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="220" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-2" value="性能优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="700" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-3" value="match" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="780" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T70dYsvGVHp2kIThYeYV-4" target="T70dYsvGVHp2kIThYeYV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-4" value="connectHOC(selectorFactory,args)(WrappedComponent)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="220" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-6" value="return" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="220" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T70dYsvGVHp2kIThYeYV-7" target="T70dYsvGVHp2kIThYeYV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-7" value="wrapWithConnect(WrappedComponent)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="220" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-9" value="return" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="230" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-10" value="hoistStatics(Connect, WrappedComponent)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="220" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-12" value="return" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="230" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-15" value="&amp;nbsp;const Connect = pure ? React.memo(ConnectFunction) : ConnectFunction" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="680" width="410" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-17" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;ConnectFunction&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="900" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-18" value="返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="910" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-19" value="&lt;div&gt;&amp;nbsp;&amp;lt;ContextToUse.Provider value={overriddenContextValue}&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {renderedWrappedComponent}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;/ContextToUse.Provider&amp;gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="895" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-20" value="renderedWrappedComponent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1040" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-21" value="&lt;div&gt;&amp;nbsp;&amp;lt;WrappedComponent&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {...actualChildProps}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ref={reactReduxForwardedRef}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; /&amp;gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1020" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-22" value="childPropsSelector(store.getState(), wrapperProps)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1040" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-23" value="&lt;div&gt;&amp;nbsp;useIsomorphicLayoutEffectWithArgs(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; subscribeUpdates,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; shouldHandleStateChanges,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; store,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; subscription,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; childPropsSelector,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; lastWrapperProps,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; lastChildProps,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; renderIsScheduled,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; childPropsFromStoreUpdate,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; notifyNestedSubs,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; forceComponentUpdateDispatch,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [store, subscription, childPropsSelector]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; )&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1675" y="1110" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-24" value="subscribeUpdates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1675" y="1520" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T70dYsvGVHp2kIThYeYV-25" value="&lt;div&gt;subscription.onStateChange = checkForUpdates&lt;/div&gt;&lt;div&gt;&amp;nbsp; subscription.trySubscribe()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="1635" width="270" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
